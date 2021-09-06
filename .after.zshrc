@@ -22,6 +22,7 @@ alias gclean="git branch | grep -v \"*\|master\|develop\|release\" | xargs git b
 alias glocal="git branch | grep -v \"*\|master\|develop\|release\""
 alias gcheck="git log --branches --not --remotes"
 alias grtm="git rebase --onto master"
+alias gfp="git push -f"
 alias rename_scan="find . -exec rename -n 's/(\d\d\d\d)_(\d\d)_(\d\d)_\d\d_\d\d_\d\d(.*)?/\$1-\$2-\$3\?\$4/g' {} +"
 alias rename_scan_go="find . -exec rename 's/(\d\d\d\d)_(\d\d)_(\d\d)_\d\d_\d\d_\d\d(.*)?/\$1-\$2-\$3\?\$4/g' {} +"
 alias mkc="microk8s.kubectl"
