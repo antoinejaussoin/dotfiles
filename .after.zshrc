@@ -72,3 +72,7 @@ disk_backup_mac() {
   rsync -aEv --delete ~/Music /Volumes/Backup
   rsync -aEv --delete ~/Movies /Volumes/Backup
 }
+
+# Asynchronously fetches new version of the dotfiles
+cd ~/.dotfiles
+git pull &
