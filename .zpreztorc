@@ -21,6 +21,7 @@ zstyle ':prezto:load' zfunction 'zargs' 'zmv'
 
 # Set the Prezto modules to load (browse modules).
 # The order matters.
+# Removed: 'node' \
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
@@ -36,7 +37,6 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'archive' \
   'homebrew' \
-  'node' \
   'osx' \
   'ssh' \
   'tmux' \
@@ -160,7 +160,7 @@ zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 #
 
 # Set the SSH identities to load into the agent.
-zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'id_ed25519'
 
 #
 # Syntax Highlighting
