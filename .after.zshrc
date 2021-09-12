@@ -60,6 +60,7 @@ frvpn() {
 
 # NVM
 if test -f ~/.zsh-nvm/zsh-nvm.plugin.zsh; then
+  export NVM_LAZY_LOAD=true
   source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 fi
 
@@ -76,4 +77,4 @@ disk_backup_mac() {
 # Asynchronously fetches new version of the dotfiles
 cd ~/.dotfiles
 (nohup git pull > /dev/null 2>&1 &)
-cd ~
+cd -
