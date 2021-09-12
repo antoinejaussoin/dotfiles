@@ -59,7 +59,7 @@ frvpn() {
 
 
 # NVM
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+# source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
 # Disk Backup
 disk_backup_mac() {
