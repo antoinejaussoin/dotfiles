@@ -75,6 +75,4 @@ disk_backup_mac() {
 }
 
 # Asynchronously fetches new version of the dotfiles
-cd ~/.dotfiles
-(nohup git pull > /dev/null 2>&1 &)
-cd -
+(cd ~/.dotfiles && nohup git pull > /dev/null 2>&1 &)
