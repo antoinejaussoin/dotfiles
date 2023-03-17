@@ -4,7 +4,7 @@ set ignorecase
 set smartcase
 set autoindent
 set number
-set nornu
+set rnu
 
 if has('filetype')
   filetype indent plugin on
