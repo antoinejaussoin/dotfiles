@@ -28,6 +28,7 @@ alias rename_scan="find . -exec rename -n 's/(\d\d\d\d)_(\d\d)_(\d\d)_\d\d_\d\d_
 alias rename_scan_go="find . -exec rename 's/(\d\d\d\d)_(\d\d)_(\d\d)_\d\d_\d\d_\d\d(.*)?/\$1-\$2-\$3\?\$4/g' {} +"
 alias mkc="microk8s.kubectl"
 alias refzsh="source ~/.zshrc"
+alias dudush="du -hs * | sort -hr"
 
 # Bazel autocompletion
 fpath[1,0]=~/.zsh/completion/
