@@ -6,3 +6,5 @@ export GPG_TTY=$(tty)
 export STARSHIP_CONFIG=~/.dotfiles/starship.toml
 
 eval "$(starship init zsh)"
+
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
